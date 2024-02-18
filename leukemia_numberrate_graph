@@ -1,0 +1,40 @@
+
+file_path_leukemia_number = '/mnt/data/leukemia age data for number.csv'
+file_path_leukemia_rate = '/mnt/data/leukemia age data for rate.csv'
+
+
+data_leukemia_number = pd.read_csv(file_path_leukemia_number)
+data_leukemia_rate = pd.read_csv(file_path_leukemia_rate)
+
+
+preview_leukemia_number = data_leukemia_number.head()
+preview_leukemia_rate = data_leukemia_rate.head()
+
+preview_leukemia_number, preview_leukemia_rate
+Result
+(  Cancer Type       Year Age Group (years)  Age-Specific Rate  Case Count  \
+ 0   Leukemias  2016-2020                <1                4.1         760   
+ 1   Leukemias  2016-2020               1-4                8.7        6668   
+ 2   Leukemias  2016-2020               5-9                4.2        4084   
+ 3   Leukemias  2016-2020             10-14                3.4        3400   
+ 4   Leukemias  2016-2020             15-19                3.1        3198   
+ 
+    Population  
+ 0    18583091  
+ 1    76880096  
+ 2    98323876  
+ 3   100666137  
+ 4   102161808  ,
+   Cancer Type       Year Age Group (years)  Age-Specific Rate  Case Count  \
+ 0   Leukemias  2016-2020                <1                4.1         760   
+ 1   Leukemias  2016-2020               1-4                8.7        6668   
+ 2   Leukemias  2016-2020               5-9                4.2        4084   
+ 3   Leukemias  2016-2020             10-14                3.4        3400   
+ 4   Leukemias  2016-2020             15-19                3.1        3198   
+ 
+    Population  
+ 0    18583091  
+ 1    76880096  
+ 2    98323876  
+ 3   100666137  
+ 4   102161808  )
