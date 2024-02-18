@@ -25,3 +25,8 @@ Cancer remains a significant public health challenge in the United States, with 
 
 
 (Note: The statistics and information provided are based on data available as of 2020.)
+
+Checkout the dashboards at 
+- https://public.tableau.com/app/profile/jothsna.praveena.pendyala/viz/CancerDashboard_17082648210750/CancerAnalysis?publish=yes
+- https://public.tableau.com/app/profile/jothsna.praveena.pendyala/viz/RegionalCancerDashboard/RegionalAnalysis?publish=yes
+- https://public.tableau.com/app/profile/jothsna.praveena.pendyala/viz/HealthEquitydashboard/ExploringHealthcareAccessDemographicFactors?publish=yes
